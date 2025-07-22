@@ -10,6 +10,7 @@
 *   SQL (for schema definitions)
 *   ORM libraries (e.g., TypeORM for Node.js, SQLAlchemy for Python, Gorm for Go)
 *   Database migration tools (e.g., Flyway, Liquibase, Knex.js).
+* We can try Prisma ORM (PostgreSQL/SQLite)
 
 **Usage:**
 This is **not a running service**; it's a **library/schema definition repository**. Services that share a database will include this repository as a dependency to ensure consistency in data access and schema management.
